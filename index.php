@@ -51,6 +51,9 @@ if (isset($_SESSION['user_id'])) {
                 <a href="public/login.php" class="w-full sm:w-auto text-center font-medium bg-white text-slate-700 border border-slate-200 px-8 py-3 rounded-lg hover:bg-slate-50 transition shadow-xs cursor-pointer">
                     Workspace Login &rarr;
                 </a>
+                <a href="actions/demo_admin_process.php" class="w-full sm:w-auto text-center font-medium bg-amber-500 text-white px-8 py-3 rounded-lg hover:bg-amber-600 shadow-md transition-all cursor-pointer flex items-center justify-center gap-2">
+                 Admin Login
+                </a>
             </div>
         </div>
     </main>
